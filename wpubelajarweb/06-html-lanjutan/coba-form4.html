@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Elemen Form di dalam Tabel</title>
+  </head>
+  <body>
+    <h1>Contoh elemen-elemen form pada HTML</h1>
+
+    <form>
+      <table cellpadding="4">
+        <tr>
+          <td align="right"><label for="nama">Nama:</label></td>
+          <td>
+            <input
+              type="text"
+              name="nama"
+              id="nama"
+              placeholder="Masukkan nama"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="password">Password: </label></td>
+          <td><input type="password" name="password" id="password" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="email">Email: </label></td>
+          <td><input type="email" name="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label for="angka">Angka: </label>
+          </td>
+          <td>
+            <input
+              type="number"
+              name="number"
+              id="angka"
+              min="-100"
+              max="100"
+              step="5"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="tanggal">Tanggal: </label></td>
+          <td><input type="date" name="tanggal" id="tanggl" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="warna">Pilih warna: </label></td>
+          <td><input type="color" name="warna" id="warna " /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="url">url: </label></td>
+          <td><input type="url" name="url" id="url" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="telephon">No.telp: </label></td>
+          <td><input type="tel" name="No.telp" id="No.telp" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="radio">Radio: </label></td>
+          <td><input type="radio" name="radio" id="radio" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="file">File: </label></td>
+          <td><input type="file" name="file" id="file" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="checkbox">Checkbox: </label></td>
+          <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <button type="submit">Kirim!</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
