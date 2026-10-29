@@ -1,0 +1,12 @@
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 100px;
+  color: rgb(5, 134, 247);
+  text-align: center;
+}
+
+p {
+  color: plum;
+  font-size: 30px;
+  text-align: center;
+}
