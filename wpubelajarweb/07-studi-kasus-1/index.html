@@ -144,6 +144,7 @@
 
       <!--2.4 SCEDULE SECTION -->
       <section id="scedule">
+        <h3>Scedule List</h3>
         <table border="1" cellspacing="0" cellpadding="10">
           <thead>
             <tr>
@@ -154,7 +155,7 @@
           </thead>
           <tbody>
             <tr>
-              <td colspan="3" align="center">Day 1 15 JUNE 2026</td>
+              <td colspan="3" align="center">Day1 15 JUNE 2026</td>
             </tr>
             <tr>
               <td>18:00-19:00</td>
@@ -172,7 +173,7 @@
               <td>Side Stage</td>
             </tr>
             <tr>
-              <td colspan="3" align="center">Day 2 16 JUNE 2026</td>
+              <td colspan="3" align="center">Day2 16 JUNE 2026</td>
             </tr>
             <tr>
               <td>19:30-20:30</td>
@@ -195,7 +196,7 @@
             </tr>
 
             <tr>
-              <td colspan="3" align="center">Day 3 17 JUNE 2026</td>
+              <td colspan="3" align="center">Day3 17 JUNE 2026</td>
             </tr>
             <tr>
               <td>19:30-20:30</td>
@@ -216,9 +217,248 @@
               <td>.Feast (Encore)</td>
               <td>Main Stage</td>
             </tr>
+            <tr>
+              <td>23:30-00:00</td>
+              <td>Closing Ceremony</td>
+              <td>Main Stage</td>
+            </tr>
           </tbody>
         </table>
       </section>
+      <hr />
+
+      <!-- TICKETS SECTION -->
+      <section id="tickets">
+        <h3>Buying Tickets</h3>
+        <form>
+          <table cellpadding="4">
+            <tr>
+              <td align="right"><label for="nama">Nama:</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="nama"
+                  id="nama"
+                  placeholder="Masukkan nama"
+                  autocomplete="off"
+                  autofocus
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="right"><label for="email">Email:</label></td>
+              <td>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Masukkan email"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="right"><label for="telepon">No.telp:</label></td>
+              <td>
+                <input
+                  type="tel"
+                  name="telepon"
+                  id="telepon"
+                  placeholder="Masukkan No.telp"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="tiket reguler">Tipe Tiket:</label>
+              </td>
+              <td>
+                <input
+                  type="radio"
+                  name="tipe_tiket"
+                  id="tiket reguler"
+                  value="Regular Rp 500,000"
+                  checked
+                />Regular Rp 500,000
+              </td>
+            </tr>
+            <tr>
+              <td align="right"><label for="tiket VIP"></label></td>
+              <td>
+                <input
+                  type="radio"
+                  name="tipe_tiket"
+                  id="tiket VIP"
+                  value="VIP Rp 1,500,000"
+                />VIP Rp 1,500,000
+              </td>
+            </tr>
+            <tr>
+              <td align="right"><label for="tiket VVIP"></label></td>
+              <td>
+                <input
+                  type="radio"
+                  name="tipe_tiket"
+                  id="tiket VVIP"
+                  value="VVIP Rp 3,000,000"
+                />VVIP Rp 3,000,000
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="jumlah tiket "> Jumlah Tiket:</label>
+              </td>
+              <td>
+                <input
+                  type="number"
+                  name="jumlah tiket"
+                  id="jumlah tiket"
+                  min="1"
+                  max="10"
+                  value="1"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="right"><label for="day pass">Day Pass:</label></td>
+              <td>
+                <input
+                  type="checkbox"
+                  name="day pass"
+                  id="day pass"
+                  value="Day 1"
+                  checked
+                />Day 1
+              </td>
+            </tr>
+            <tr>
+              <td align="right"><label for="day pass"></label></td>
+              <td>
+                <input
+                  type="checkbox"
+                  name="day pass"
+                  id="day pass"
+                  value="Day 2"
+                />Day 2
+              </td>
+            </tr>
+            <tr>
+              <td align="right"><label for="day pass"></label></td>
+              <td>
+                <input
+                  type="checkbox"
+                  name="day pass"
+                  id="day pass"
+                  value="Day 3"
+                />Day 3
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="right">
+                <button type="submit">Book!</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </section>
+
+      <hr />
+      <!-- GALLERY SECTION -->
+      <section id="gallery">
+        <h3>Festival Highlights 2025</h3>
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="assets/image/gallery/Crowd1.jpg"
+                alt="Crowd Vibes"
+                width="300"
+              />
+              <figcaption>Crowd Vibes at Main Stage 2025</figcaption>
+            </figure>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="assets/image/gallery/Fire Works.jpg"
+                alt="Fire Works"
+                width="300"
+              />
+              <figcaption>Fire Works at Main Stage 2025</figcaption>
+            </figure>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="assets/image/gallery/Food Coour.jpg"
+                alt="Food Court Area"
+                width="300"
+              />
+              <figcaption>Food Court Area</figcaption>
+            </figure>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="assets/image/gallery/Neon Instalation.jpg"
+                alt="Neon Instalation"
+                width="300"
+              />
+              <figcaption>Neon Instalation at Entrence gate</figcaption>
+            </figure>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="assets/image/gallery/Sunset Performence.jpg"
+                alt="Sunset Performence"
+                width="300"
+              />
+              <figcaption>Sunset Performence</figcaption>
+            </figure>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="assets/image/gallery/VIP Lounge.jpg"
+                alt="VIP Lounge"
+                width="300"
+              />
+              <figcaption>VIP Lounge</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
     </main>
+
+    <hr />
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2026 WPU StreamFest. All Rights Reserved.</p>
+      <p>
+        Follow Us:
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">Tiktok</a>
+        <a href="#" target="_blank">Twintter / X</a>
+        <a href="#" target="_blank">Youtube </a>
+      </p>
+      <p>
+        Contact:
+        <a href="mailto:hello@wpustreamfest.com.">hello@wpustreamfest.com.</a>
+      </p>
+    </footer>
   </body>
 </html>
