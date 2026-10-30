@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba CSS - FontStyling 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Trad:wght@100..400&family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      @font-face {
+        font-family: Lobster;
+        src: url("fonts/LobsterTwo-Regular.ttf") format(truetype);
+        font-weight: normal;
+        font-size: normal;
+        font-display: swap;
+      }
+
+      h1 {
+        color: crimson;
+        font-size: 60px;
+        text-align: center;
+        font-family: "Playwrite IT Trad", "Algerian", serif;
+      }
+
+      p {
+        color: navy;
+        text-align: center;
+        font-size: 30px;
+        font-family: "Redaction 50", serif;
+        font-weight: bold;
+      }
+
+      .font-lobster {
+        font-family: Lobster, arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa mollitia
+      sint provident reprehenderit assumenda vero! Error reiciendis soluta
+      tempore. Velit.
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+      voluptatibus impedit ipsam incidunt officia earum veritatis ratione non
+      quasi dicta!
+    </p>
+    <p class="font-lobster">
+      Telah ku sadar hidup bukan lah perihal mengambil yang kau tebar sedikit
+      air yang ku punya milik mu juga bersama bisakah kita tetap memberi walau
+      tak suci
+    </p>
+  </body>
+</html>
