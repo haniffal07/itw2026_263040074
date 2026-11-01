@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Background Attachment</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-color: #eee;
+        height: 2000px;
+      }
+
+      .kotak {
+        width: 400px;
+        height: 300px;
+        border: 10px solid #333;
+        margin: auto;
+        background-image: url(img/Pamungkas.jpg);
+        background-size: 60px;
+        background-repeat: round;
+        overflow: auto;
+        background-attachment: fixed;
+      }
+
+      .content {
+        color: #fff;
+        line-height: 2;
+        background-color: rgb(0 0 0 /70%);
+      }
+
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Coba Background Attachment</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, amet.
+    </p>
+    <div class="kotak">
+      <div class="content">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, culpa!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          officia qui nostrum neque ad. Tempore deleniti ratione obcaecati eos
+          nulla corrupti maxime quos ducimus officiis, accusantium atque sequi
+          saepe exercitationem?
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea assumenda
+          minus harum illum a, dolores, soluta odio in aliquam beatae sapiente
+          atque illo iste tenetur delectus exercitationem minima dolorem
+          molestiae?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
